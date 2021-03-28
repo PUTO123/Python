@@ -62,10 +62,12 @@ while True:
                 print("Dein Ergebnis ist: ", z1d / z2d)
             
         
-    if __name__ == "__main__":
-        Grundrechnungsarten()
+if __name__ == "__main__":
+    Grundrechnungsarten()
     
-    w = input("Willst du weitermachen? Ja oder Nein: ")
+w = input("Willst du weitermachen? Ja oder Nein: ")
 
-    if w == "Nein":
-        break
+if w == "Nein":
+    exit()
+
+input()
